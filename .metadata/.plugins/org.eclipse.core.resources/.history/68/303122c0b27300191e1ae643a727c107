@@ -1,0 +1,26 @@
+package lk.tharindu.sms.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import lk.tharindu.sms.model.Employee;
+import lk.tharindu.sms.model.Telephone;
+import lk.tharindu.sms.repository.EmployeeRepository;
+
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	@Autowired
+	EmployeeRepository employeeRepository;
+
+	@Override
+	public Employee save(Employee employee) {
+		
+		for (Telephone telephone : employee.getTelephones()) {
+			telephone.setEmployee(employee);
+		}
+		return employeeRepository.save(employee);
+	}
+
+}

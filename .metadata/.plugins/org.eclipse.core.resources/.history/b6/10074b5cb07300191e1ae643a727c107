@@ -1,0 +1,20 @@
+package lk.tharindu.sms.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import lk.tharindu.sms.model.Employee;
+import lk.tharindu.sms.repository.EmployeeRepository;
+
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	@Autowired
+	EmployeeRepository employeeRepository;
+
+	@Override
+	public Employee save(Employee employee) {
+		
+		
+		return employeeRepository.save(employee);
+	}
+
+}

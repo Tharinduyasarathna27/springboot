@@ -1,0 +1,5 @@
+package lk.tharindu.sms.model;
+
+public class Project {
+
+}

@@ -1,0 +1,8 @@
+package lk.tharindu.sms.service;
+
+import lk.tharindu.sms.model.Employee;
+
+public interface EmployeeService {
+
+		Employee save(Employee employee);
+}
