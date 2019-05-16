@@ -1605,3 +1605,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-05-11 12:52:45,133 [Worker-55: Launching employee-service - EmployeeServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-05-11 12:52:45,133 [Worker-55: Launching employee-service - EmployeeServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tharindu/Documents/Spring tool suit/employee-service/src/test/resources
 2019-05-13 07:52:49,162 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-14 17:37:14,035 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
